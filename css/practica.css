@@ -1,0 +1,32 @@
+h1 {
+    color: hotpink;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: purple dotted 10px;
+}
+
+h2 {
+    font-style: italic;
+    font-family: sans-serif;
+}
+.encabezado {
+    color: purple;
+}
+
+.recuadro {
+    background-color: #eeeeee;
+    border: 5px solid purple;
+    padding-left: 5%;
+}
+
+a:hover {
+    color : green;
+}
+
+.color_links {
+    color: orange
+}
+.peso {
+    font-weight: bold;
+    color: gray;
+}
