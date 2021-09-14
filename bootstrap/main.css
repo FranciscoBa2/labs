@@ -48,96 +48,98 @@ line-height: 1.5;
     background:#691657;
     border-radius: 0;
     color:#fff;
-    }
-    .description button:hover {
+}
+
+.description button:hover {
     border:1px solid #fff;
     background:#fff;
     color:#000;
-    }
+}
 
-    .features {
+.features {
         margin: 4em auto;
         padding: 1em;
         position: relative;
-        }
-        .feature-title {
+}
+.feature-title {
         color: #333;
         font-size: 1.3rem;
         font-weight: 700;
         margin-bottom: 20px;
         text-transform: uppercase;
-        }
-        .features img {
+}
+.features img {
             -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
             -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
             box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
             margin-bottom: 16px;
-            }
-            .background {
+}
+.background {
                 background: #dedec8;
                 padding: 4em 0;
-            }
-            .team {
+}
+.team {
             color: #5e5e55;
             padding: 0 180px;
-            }
-            .team .card-columns {
+}
+.team .card-columns {
             -webkit-column-count: 4;
             -moz-column-count: 4;
             column-count: 4;
-            }
-            .team .card {
+}
+
+.team .card {
             background:none;
             border: none;
-            }
-            .team .card-title {
+}
+.team .card-title {
             font-size: 1.3rem;
             margin-bottom: 0;
             text-transform: uppercase;
-            }
-            .page-footer {
+}
+.page-footer {
                 background-color: #222;
                 color: #ccc;
                 padding: 60px 0 30px;
-                }
-                .footer-copyright {
+}
+.footer-copyright {
                 color: #666;
                 padding: 40px 0;
-                }
-                @media (max-width: 575.98px) {
-                    .description {
+}
+@media (max-width: 575.98px) {
+        .description {
                     left: 0;
                     padding: 0 15px;
                     position: absolute;
                     top: 10%;
                     transform: none;
                     text-align: center;
-                    }
-                    .description h1 {
+        }
+        .description h1 {
                     font-size: 2em;
-                    }
-                    .description p {
+        }
+        .description p {
                     font-size: 1.2rem;
-                    }
-                    .features {
+        }
+        .features {
                     margin: 0;
-                    }
-                    }
-                    #demo-modal .modal-content {
+        }
+}
+#demo-modal .modal-content {
                         border-radius: 0;
                         padding: 2rem;
-                        }
-                        #demo-modal .modal-header {
+}
+#demo-modal .modal-header {
                         border-bottom: none;
-                        }
-                        #demo-modal h4 {
+}
+#demo-modal h4 {
                         color: #000;
                         font-size: 30px;
                         margin: 0 0 25px;
                         font-weight: bold;
                         text-transform: capitalize;
-                        }
-                        #demo-modal .close {
+}
+#demo-modal .close {
                         background: #c0c3c8;
                         border-radius: 50%;
                         color: #fff;
@@ -151,10 +153,26 @@ line-height: 1.5;
                         text-align: center;
                         top: 26px;
                         width: 30px;
-                        }
-                        #demo-modal .close span {
+}
+#demo-modal .close span {
                         position: relative;
                         top: -3px;
-                        }
-                        #demo-modal .modal-body p {
-                            
+}
+#demo-modal .modal-body p {
+    color: #999;
+}
+#demo-modal .form-control,
+#demo-modal .btn {
+    min-height: 46px;
+}
+#demo-modal .btn {
+    background-color: #1da098;
+    border: none;
+    color: #fff;
+    min-width: 150px;
+    transition: all 0.4s;
+}
+#demo-modal .btn:hover,
+#demo-modal .btn:focus {
+    background-color: #12968d;
+}
